@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build && nodemon dist/app.js",
+    "start": "npm run build && npm run go",
+    "build": "npx tsc",
+    "go": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
